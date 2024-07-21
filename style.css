@@ -1,0 +1,54 @@
+body {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    background-color: #c8d9f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+#section-1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 300px;
+}
+
+#qr-code {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+article {
+    background-image: linear-gradient(to bottom, #8807FF, #FF00DD, #FFCE03);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#main-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.second-text {
+    text-align: center;
+    color: rgb(145, 145, 145);
+    font-size: 1.0em;
+}
+
+p a {
+    text-decoration: none;
+    color: #8807FF;
+    font-weight: 700;
+}
+
+p a:hover {
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: 0.3s;
+}
